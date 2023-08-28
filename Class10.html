@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 10</title>
+</head>
+<style>
+    .maindiv{
+        width: 600px;
+        height: 80px;
+        border: 2px solid black;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .maindiv input{
+        width: 50px;
+        height: 40px;
+        border: 1px solid black;
+        text-align: center;
+        padding: 1px 4px 1px 18px;
+       
+    }
+    .maindiv span{
+        font-size: 20px;
+        font-weight: bold;
+        background: white;
+        color: black;
+        width: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        
+    }
+    .plus{
+        
+        position: relative;
+        left:12px;
+
+    }
+    .minus{
+        
+        position: relative;
+        right: 12px;
+    }
+    .unitPrice{
+        position: relative;
+        left: 40px;
+    }
+    .totalPrice{
+        position: relative;
+        left: 95px;
+    }
+    .totalPp{
+        bottom: 48px;
+    left: 199px;
+    position: relative;
+    }
+</style>
+<body>
+    <div class="maindiv">
+        <span class="minus">-</span>
+        <input type="number" value="0" class="inputTypeNum"/>
+        <span class="plus">+</span>
+        <h3 class="unitPrice">10</h3>
+        <h3 class="totalPrice">10</h3>
+    </div>
+    <div class="maindiv">
+        <span class="minus">-</span>
+        <input type="number" value="0" class="inputTypeNum"/>
+        <span class="plus">+</span>
+        <h3 class="unitPrice">10</h3>
+        <h3 class="totalPrice">10</h3>
+    </div>
+    <div class="maindiv">
+        <span class="minus">-</span>
+        <input type="number" value="0" class="inputTypeNum"/>
+        <span class="plus">+</span>
+        <h3 class="unitPrice">10</h3>
+        <h3 class="totalPrice">10</h3>
+    </div>
+    <h2 id="totalQty">Total Qty:0</h2>
+    <h2 class="totalPp">Total Price:0</h2>
+    <script src="class10.js"></script>
+</body>
+</html>
